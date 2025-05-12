@@ -1,0 +1,274 @@
+html {
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+footer {
+    color: black;
+}
+
+header {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    width: 400px;
+    display: block;
+}
+
+.hero-header {
+    background-image: url('./Imagenes/header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 12px;
+    margin: 20px;
+    text-align: center;
+}
+
+.hero-header {
+    background-image: url('./Imagenes/TeatroVorterix.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 12px;
+    margin: 20px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.brand-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.cta-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: darkorange;
+}
+
+/* Contenedor general */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* estilos para secciones de información */
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 0;
+}
+
+.tarjeta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    border-radius: 20px;
+    padding: 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.tarjeta:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.texto {
+    flex: 1;
+    color: white;
+    min-width: 250px;
+    max-width: 500px;
+}
+
+.descripcion {
+    color: aliceblue;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.imagen img {
+    width: 250px;
+    height: auto;
+    border-radius: 12px;
+}
+
+/* bloques individuales de destacados */
+.destacados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px 0;
+    color: white;
+    text-align: center;
+}
+
+.bloque {
+    flex: 1 1 300px;
+    max-width: 350px;
+    background-color: #111;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bloque img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+.bloque h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.bloque p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.item-negrita {
+    font-weight: bold;
+}
+
+#titulo {
+    color: white;
+    font-weight: bold;
+}
+
+.testimonios {
+    padding: 0px 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.testimonios h2 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.contenedor-testimonios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.testimonio {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 16px;
+    text-align: left;
+}
+
+.testimonio p {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.perfil img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* responsive :) */
+@media screen and (max-width: 768px) {
+
+    .hero-header {
+        padding: 30px 10px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-content p {
+        font-size: 0.95rem;
+    }
+
+    .tarjeta {
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    .imagen img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .bloque {
+        max-width: 100%;
+    }
+
+    .bloque img {
+        width: 80%;
+    }
+}
