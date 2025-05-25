@@ -1,73 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <title>Paren la mano en Vorterix</title>
-    <meta charset="utf-8">
-    <meta name="description" content="Paren la mano en el teatro Vorterix">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
+    <head>
+        <title>Paren la mano en Vorterix</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Paren la mano en el teatro Vorterix">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
 
-<body>
-    <header class="hero-header">
-        <div class="navbar">
-            <img src="./Imagenes/LogoVorterix.png" alt="Logo Vorterix" class="logo">
-            <span class="brand-text">Vorterix</span>
-        </div>
-        <div class="hero-content">
-            <h1>¡GANA DOS ENTRADAS PARA VER A <br> PAREN LA MANO!</h1>
-            <p>
-                Participá por un par de entradas para disfrutar en vivo el show de Paren la Mano en el Teatro Vorterix,<br>
-                uno de los teatros más icónicos de Buenos Aires.
-            </p>
-            <p>¡Completá tus datos y cruzá los dedos!</p>
-            <button class="cta-button">¡Quiero participar!</button>
-        </div>
-    </header>
+    <body>
+        <header class="hero-header">
+            <div class="navbar">
+                <img src="./Imagenes/LogoVorterix.png" alt="Logo Vorterix" class="logo">
+                <span class="brand-text">Vorterix</span>
+            </div>
+            <div class="hero-content">
+                <h1>¡GANA DOS ENTRADAS PARA VER A <br> PAREN LA MANO!</h1>
+                <p>
+                    Participá por un par de entradas para disfrutar en vivo el show de Paren la Mano en el Teatro Vorterix,<br>
+                    uno de los teatros más icónicos de Buenos Aires.
+                </p>
+                <p>¡Completá tus datos y cruzá los dedos!</p>
+                <a href="#formulario">
+                    <button class="cta-button" onclick="document.getElementById('formulario').scrollIntoView({ behavior: 'smooth' });">
+                        ¡Quiero participar!
+                    </button>
+                </a>
+            </div>
+        </header>
     
 
-    <div class="container">
-        <!-- INFO -->
+    
+        <!-- información :) -->
         <section class="info">
-            <div class="tarjeta">
-                <div class="texto">
-                    <h2>Sobre el evento</h2>
-                    <p class="descripcion">El espectáculo de Paren la Mano promete risas, improvisaciones, y momentos épicos en un escenario icónico de la cultura porteña. El evento tendrá lugar el 07/07 en el Teatro Vorterix, ubicado en el corazón de Colegiales, Buenos Aires.</p>
+            <div class="container">
+                <div class="tarjeta">
+                    <div class="texto">
+                        <h2>Sobre el evento</h2>
+                        <p class="descripcion">El espectáculo de Paren la Mano promete risas, improvisaciones, y momentos épicos en un escenario icónico de la cultura porteña. El evento tendrá lugar el 07/07 en el Teatro Vorterix, ubicado en el corazón de Colegiales, Buenos Aires.</p>
+                    </div>
+                    <div class="imagen">
+                        <img src="./Imagenes/LuquitasR.png" alt="imagen Luquitas">
+                    </div>
                 </div>
-                <div class="imagen">
-                    <img src="./Imagenes/LuquitasR.png" alt="imagen Luquitas">
-                </div>
-            </div>
 
-            <div class="tarjeta">
-                <div class="texto">
-                    <h2>¿Cómo participar?</h2>
-                    <p class="descripcion">Participar es muy fácil: solo tenés que completar el formulario con tus datos. No es necesario realizar ninguna compra ni pagar inscripción. ¡Con unos pocos clics ya estás adentro del sorteo!</p>
-                </div>
-                <div class="imagen">
-                    <img src="./Imagenes/RobertoG.png" alt="Imagen Roberto">
+                <div class="tarjeta">
+                    <div class="texto">
+                        <h2>¿Cómo participar?</h2>
+                        <p class="descripcion">Participar es muy fácil: solo tenés que completar el formulario con tus datos. No es necesario realizar ninguna compra ni pagar inscripción. ¡Con unos pocos clics ya estás adentro del sorteo!</p>
+                    </div>
+                    <div class="imagen">
+                        <img src="./Imagenes/RobertoG.png" alt="Imagen Roberto">
+                    </div>
                 </div>
             </div>
         </section>
+    
 
         <section class="destacados">
-            <div class="bloque">
-                <img src="./Imagenes/GermanB.png" alt="Imagen Germán">
-                <h3>Paren la Mano en vivo es una experiencia única.</h3>
-                <p>El humor sin filtro, los chistes improvisados y la conexión con el público en el Vorterix no tienen comparación. Si sos fan del programa, esto es el plan del año.</p>
-            </div>
-            <div class="bloque">
-                <img src="./Imagenes/AlfredoM.png" alt="Imagen Alfredo">
-                <h3>¡Vos también sos parte del show!</h3>
-                <p>Desde preguntas espontáneas hasta momentos improvisados, todo puede pasar cuando estás cara a cara con los protagonistas de PLM.</p>
-            </div>
-            <div class="bloque">
-                <img src="./Imagenes/JoaquinC.png" alt="Imagen J">
-                <h3>¡Sorteos y premios en vivo!</h3>
-                <p>Desde regalos inesperados hasta menciones en el programa, Paren la Mano siempre tiene algo extra para los que se animan a estar ahí.</p>
+            <div class="carrusel-wrapper">
+                <div class="carrusel">
+                    <div class="bloque">
+                        <img src="./Imagenes/GermanB.png" alt="Imagen Germán">
+                        <h3>Paren la Mano en vivo es una experiencia única.</h3>
+                        <p>El humor sin filtro, los chistes improvisados y la conexión con el público en el Vorterix no tienen comparación. Si sos fan del programa, esto es el plan del año.</p>
+                    </div>
+                    <div class="bloque">
+                        <img src="./Imagenes/AlfredoM.png" alt="Imagen Alfredo">
+                        <h3>¡Vos también sos parte del show!</h3>
+                        <p>Desde preguntas espontáneas hasta momentos improvisados, todo puede pasar cuando estás cara a cara con los protagonistas de PLM.</p>
+                    </div>
+                    <div class="bloque">
+                        <img src="./Imagenes/JoaquinC.png" alt="Imagen J">
+                        <h3>¡Sorteos y premios en vivo!</h3>
+                        <p>Desde regalos inesperados hasta menciones en el programa, Paren la Mano siempre tiene algo extra para los que se animan a estar ahí.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -100,14 +111,14 @@
                         <span>- Facundo R.</span>
                     </div>
                 </div>
-                <div class="testimonio">
+                <div class="testimonio oculto">
                     <p>“Se siente como estar entre amigos, pero con el triple de risas. Si te gusta el programa, no podés perderte el show en Vorterix.”</p>
                     <div class="perfil">
                         <img src="./Imagenes/Usuario2.png" alt="Foto de Ignacio">
                         <span>- Ignacio V.</span>
                     </div>
                 </div>
-                <div class="testimonio">
+                <div class="testimonio oculto">
                     <p>“Paren La Mano en vivo es un viaje de ida, te cagás de risa, te sentís parte de algo, y la pasás bomba. VAYAN.”</p>
                     <div class="perfil">
                         <img src="./Imagenes/Usuario4.png" alt="Foto de Camila">
@@ -115,17 +126,92 @@
                     </div>
                 </div>
             </div>
+            <button class="ver-mas" onclick="mostrarTestimonios()">
+                ver más<br>
+                <img src="Imagenes/Flecha.png" alt="Flecha hacia abajo" class="flecha-icono">
+            </button>
+
         </section>
         
-
         <!-- formulario -->
         <section>
-            <!-- formulario aca:) -->
-        </section>
-    </div>
+            <section class="formulario-participacion">
+                <div class="formulario-contenedor">
+                    <h2>¡Completa el formulario para participar!</h2>
+                    <form id="formulario">
+                            <input type="text" name="nombre" placeholder="Nombre y apellido" required />
+                            <input type="email" name="email" placeholder="Correo electrónico" required />
+                            <div class="checkbox-group">
+                                <p>De que otro programa de Vorterix te gustaría informarte?</p>
+                                <div class="checkboxes">
+                                    <label><input type="checkbox" name="programas" value="Mañana va a estar bueno" /> Mañana va a estar bueno</label>
+                                    <label><input type="checkbox" name="programas" value="Cinco Minutos Más" /> Cinco Minutos Más</label>
+                                    <label><input type="checkbox" name="programas" value="Dejá que entre el sol" /> Dejá que entre el sol</label>
+                                    <label><input type="checkbox" name="programas" value="Esto No Sucedió" /> Esto No Sucedió</label>
+                                    <label><input type="checkbox" name="programas" value="No se pudo" /> No se pudo</label>
+                                    <label><input type="checkbox" name="programas" value="Se Nota Mucho" /> Se Nota Mucho</label>
+                                </div>
+                            </div>
+                            <button type="submit" class="enviar-btn">Enviar</button>
+                            <p class="terminos">Al presionar enviar estás aceptando los términos y política de privacidad.</p>
+                        </form>
+                    </div>
+                </section>
+            </section>
 
-    <footer>
-        <p>pie de pagina</p>
-    </footer>
-</body>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-izquierda">
+                    <div class="footer-logo">
+                        <img src="./Imagenes/LogoVorterix.png" alt="Logo Vorterix">
+                        <span>Vorterix</span>
+                    </div>
+                        <div class="footer-contact">
+                            <p><img src="./Imagenes/Celular.png" alt="Teléfono"> +54 11 4041 9660</p>
+                            <p><img src="./Imagenes/Mail.png" alt="Mail"> info@vorterix.com</p>
+                            <p><img src="./Imagenes/Mapa.png" alt="Ubicación"> Av. Federico Lacroze 3455, Colegiales, Argentina</p>
+                        </div>
+                </div>
+
+                <div class="footer-derecha">
+                    <ul>
+                        <li>Términos y condiciones</li>
+                        <li>Política de Privacidad</li>
+                        <li>Política de cookies</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-social">
+                    <a href="https://www.youtube.com/@Parenlamano"><img src="./Imagenes/LogoYoutube.png" alt="YouTube"></a>
+                    <a href="https://www.twitch.tv/vorterixok"><img src="./Imagenes/LogoTwitch.png" alt="Twitch"></a>
+                    <a href="https://www.instagram.com/parenlamanok/"><img src="./Imagenes/LogoInstagram.png" alt="Instagram"></a>
+                    <a href="https://www.tiktok.com/@parenlamanok?lang=en"><img src="./Imagenes/LogoTiktok.png" alt="TikTok"></a>
+                    <a href="https://x.com/parenlamanok"><img src="./Imagenes/LogoX.png" alt="Twitter/X"></a>
+                </div>
+                <p>© 2025 Vorterix Media. Todos los derechos reservados.</p>
+                <p>Sitio desarrollado por Simón Gómez y Alma Kaldi.</p>
+            </div>
+        </footer>
+    
+        <script src="formulario.js"></script>
+        <div class="modal" id="modal-exito">
+            <div class="modal-contenido">
+                <h2>¡Ya estás participando!</h2>
+                <p>Tu inscripción al sorteo por 2 entradas para ver a Paren La Mano en vivo fue registrada con éxito.</p>
+                <p>Muy pronto vamos a anunciar a los ganadores, así que quedate atento a tu mail y nuestras redes.</p>
+                <p>Gracias por ser parte de la comunidad.<br>¡Nos vemos en Vorterix!</p>
+                <button class="cerrar-modal" id="cerrar-modal">Cerrar</button>
+            </div>
+        </div>
+        <script>
+            function mostrarTestimonios() {
+                const ocultos = document.querySelectorAll('.testimonio.oculto');
+                ocultos.forEach(t => t.style.display = 'block');
+                document.querySelector('.ver-mas').style.display = 'none';
+            }
+
+        </script>
+    </body>
 </html>
