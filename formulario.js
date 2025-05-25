@@ -6,10 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   form.addEventListener('submit', function(event) {
     event.preventDefault();
 
-    // Mostrar modal
     modal.style.display = 'flex';
-
-    // Resetear el formulario
     form.reset();
   });
 
